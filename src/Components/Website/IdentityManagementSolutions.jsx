@@ -156,7 +156,7 @@ function IdentityManagementSolutions() {
             <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
                     <p className='display-6' style={{fontWeight:"400"}}>
                         
-                        Our Process</p>
+                        Our Process </p>
                 </div>
             </div>
             <div className='row my-2'>
@@ -214,7 +214,7 @@ function IdentityManagementSolutions() {
             <div className='row'>
             <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
                     <p className='display-6' style={{fontWeight:"400"}}>
-                        Why Choose Us?
+                        Why Choose Us ?
                     </p>
                 </div>
             </div>
