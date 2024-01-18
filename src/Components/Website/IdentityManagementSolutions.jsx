@@ -212,7 +212,7 @@ function IdentityManagementSolutions() {
             <div className='row'>
                 <div className='col-12 text-center'>
                     <p className='display-6'>
-                        Why Choose Us?
+                        Why Choose Us ?
                     </p>
                 </div>
             </div>
