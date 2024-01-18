@@ -5,7 +5,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-  {/* <div class="container">
+  <div class="container">
     <div class="text-container">
       <p class="static-text">Hi, I'm a</p>
       <ul class="dynamic-text">
@@ -16,7 +16,7 @@ function Home() {
         <li class="item">professor</li>
       </ul>
     </div>
-  </div> */}
+  </div>
   </div>
   )
 }
