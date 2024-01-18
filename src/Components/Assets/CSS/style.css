@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.navbar-item-block:hover
+{
+    border-radius: 10px;
+    background-color: #f16136;
+    color: white !important;
+}
+
+.identity-management-solutions-home-hero-banner
+{
+    min-width: 100%;
+    height: 85vh;
+    display: flex;
+    /* position: absolute; */
+    background-color: #ec9775;
+    align-items: center;
+    justify-content: center;
+    position: 0;
+}
+
+.identity-management-hero-banner-text
+{
+    color: white !important;
+}
+
+.logo-slider
+{
+    text-align: center;
+}
+
+.verification-box-border
+{
+    border-left: 3px solid #ec9775;
+    border-right: 3px solid #ec9775;
+}
