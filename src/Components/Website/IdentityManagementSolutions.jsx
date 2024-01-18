@@ -31,8 +31,8 @@ function IdentityManagementSolutions() {
         </div>
         <div className='container-fluid my-3'>
             <div className='row'>
-                <div className='col-12 text-center'>
-                    <p className='display-6'>
+                <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
+                    <p className='display-6' style={{fontWeight:"400"}}>
                         Trusted by many renowned organisations
                     </p>
                 </div>
@@ -45,8 +45,8 @@ function IdentityManagementSolutions() {
         </div>
         <div className='container-fluid mb-2'>
             <div className='row'>
-                <div className='col-12 text-center'>
-                    <p className='display-6'>
+                <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
+                    <p className='display-6' style={{fontWeight:"400"}}>
                         Our comprehensive range of Verification Checks
                     </p>
                 </div>
@@ -153,8 +153,10 @@ function IdentityManagementSolutions() {
         </div>
         <div className='container-fluid my-4'>
             <div className='row'>
-                <div className='col-12 text-center'>
-                    <p className='display-6'>Our Process</p>
+            <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
+                    <p className='display-6' style={{fontWeight:"400"}}>
+                        
+                        Our Process</p>
                 </div>
             </div>
             <div className='row my-2'>
@@ -210,8 +212,8 @@ function IdentityManagementSolutions() {
         </div>
         <div className='container-fluid my-4'>
             <div className='row'>
-                <div className='col-12 text-center'>
-                    <p className='display-6'>
+            <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
+                    <p className='display-6' style={{fontWeight:"400"}}>
                         Why Choose Us?
                     </p>
                 </div>
