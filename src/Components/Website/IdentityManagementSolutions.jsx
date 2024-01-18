@@ -80,15 +80,6 @@ function IdentityManagementSolutions() {
                     <Card sx={{ minWidth: 275 }} className='verification-box-border'>
                         <CardContent>
                             <Typography variant="h5" component="div">
-                            Physical Address Verification
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </div>
-                <div className='col-md-4 text-center my-2'>
-                    <Card sx={{ minWidth: 275 }} className='verification-box-border'>
-                        <CardContent>
-                            <Typography variant="h5" component="div">
                             Qualitative Public Image Check
                             </Typography>
                         </CardContent>
