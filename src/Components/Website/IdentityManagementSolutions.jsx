@@ -2,6 +2,7 @@ import React from 'react'
 import IdentityHeroImage from '../Assets/Images/verification-2024.png'
 import { MDBBtn } from 'mdb-react-ui-kit';
 import VerificationClientSlider from './VerificationClientSlider';
+import './style.css'
 // import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 // import {CardActionArea} from '@mui/material';
@@ -30,25 +31,41 @@ function IdentityManagementSolutions() {
             </div>
         </div>
         <div className='container-fluid my-3'>
-            <div className='row'>
-                <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
-                    <p className='display-6' style={{fontWeight:"400"}}>
-                        Trusted by many renowned organisations
-                    </p>
+        <div className='row'>
+                    <div className='col-12 text-center seven d-none d-md-block'>
+                        <h1 className='display-6 '>
+                            Trusted by many renowned organisations
+                        </h1>
+
+                        {/* Shown on medium screens and larger */}
+                    </div>
+                    <div className='col-12 text-center d-md-none'>
+                        <h1 className='display-6 '>
+                            Trusted by many renowned organisations
+                        </h1>
+                    </div>
+                    <div className='col-1'></div>
+                    <div className='col-10 text-center my-2'>
+                        <VerificationClientSlider />
+                    </div>
+                    <div className='col-1'></div>
                 </div>
-                <div className='col-1'></div>
-                <div className='col-10 text-center my-2'>
-                    <VerificationClientSlider/>
-                </div>
-                <div className='col-1'></div>
-            </div>
         </div>
         <div className='container-fluid mb-2'>
             <div className='row'>
-                <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
-                    <p className='display-6' style={{fontWeight:"400"}}>
-                        Our comprehensive range of Verification Checks
-                    </p>
+            
+                    
+                    <div className='col-12 text-center seven d-none d-md-block'>
+                        <h1 className='display-6 '>
+                              Our comprehensive range of Verification Checks
+                        </h1>
+
+                        {/* Shown on medium screens and larger */}
+                    </div>
+                    <div className='col-12 text-center d-md-none'>
+                        <h1 className='display-6 '>
+                              Our comprehensive range of Verification Checks
+                        </h1>
                 </div>
                 <div className='col-md-4 text-center my-2'>
                     <Card sx={{ minWidth: 275 }} className='verification-box-border'>
@@ -152,12 +169,22 @@ function IdentityManagementSolutions() {
             </div>
         </div>
         <div className='container-fluid my-4'>
-            <div className='row'>
-            <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
-                    <p className='display-6' style={{fontWeight:"400"}}>
-                        
-                        Our Process </p>
-                </div>
+           
+           
+                <div className='row'>
+                    
+                    <div className='col-12 text-center seven d-none d-md-block'>
+                        <h1 className='display-6 '>
+                        Our Process
+                        </h1>
+
+                        {/* Shown on medium screens and larger */}
+                    </div>
+                    <div className='col-12 text-center d-md-none'>
+                        <h1 className='display-6 '>
+                        Our Process
+                        </h1>
+                        </div>
             </div>
             <div className='row my-2'>
                 <div className='col-md-3'>
@@ -211,14 +238,25 @@ function IdentityManagementSolutions() {
             </div>
         </div>
         <div className='container-fluid my-4'>
-            <div className='row'>
-                <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
-                    <p className='display-6' style={{fontWeight:"400"}}>
-                        Why Choose Us ?
-                    </p>
-                    <p align='justify'>As a background verification agency, our commitment to excellence sets us apart from others in the industry. Here are several reasons why our agency stands out:</p>
-                </div>
+        <div className='row'>
+                    
+                    <div className='col-12 text-center seven d-none d-md-block'>
+                        <h1 className='display-6 '>
+                             Why Choose Us ?
+                        </h1>
+                        <p align='justify'>As a background verification agency, our commitment to excellence sets us apart from others in the industry. Here are several reasons why our agency stands out:</p>
+
+                        {/* Shown on medium screens and larger */}
+                    </div>
+                    <div className='col-12 text-center d-md-none'>
+                        <h1 className='display-6 '>
+                             Why Choose Us ?
+                        </h1>
+                        <p align='justify'>As a background verification agency, our commitment to excellence sets us apart from others in the industry. Here are several reasons why our agency stands out:</p>
             </div>
+            </div>
+                       
+                    
             <div className='row my-3'>
                 <div className='col-md-6 my-2 ml-2'>
                     <div class="card mb-3">
