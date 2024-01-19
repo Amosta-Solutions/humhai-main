@@ -108,4 +108,10 @@
     100% { transform: translateY(0); }
   }
   
-
+  .card-side-image
+  {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+  }

@@ -31,7 +31,7 @@ function IdentityManagementSolutions() {
             </div>
         </div>
         <div className='container-fluid my-3'>
-        <div className='row'>
+            <div className='row'>
                     <div className='col-12 text-center seven d-none d-md-block'>
                         <h1 className='display-6 '>
                             Trusted by many renowned organisations
@@ -49,7 +49,7 @@ function IdentityManagementSolutions() {
                         <VerificationClientSlider />
                     </div>
                     <div className='col-1'></div>
-                </div>
+            </div>
         </div>
         <div className='container-fluid mb-2'>
             <div className='row'>
@@ -223,35 +223,20 @@ function IdentityManagementSolutions() {
                         </div>
                     </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 my-2 ml-2">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4 text-center">
-                  <img
-                    src="https://img.icons8.com/color-glass/150/courthouse.png"
-                    class="img-fluid rounded-start card-side-image mt-4"
-                    alt="courthouse"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">
-                      Compliance and Legal Expertise
-                    </h5>
-                    <p class="card-text" align="justify">
-                      Staying abreast of the latest laws and regulations is
-                      crucial in background verification. We are committed to
-                      strict compliance with local, state, and federal laws,
-                      ensuring that all our practices align with legal
-                      standards.
-                    </p>
-                  </div>
+                <div className='col-md-3'>
+                    <div className='card shadow'>
+                        <div className='card-image text-center'>
+                            <img src="https://img.icons8.com/fluency/100/graph-report.png" alt='Reports'/>
+                        </div>
+                        <div className='card-body'>
+                            <p className='card-title text-center'>
+                                <strong>Step 4:</strong> Auto-generated reports after process completion
+                            </p>
+                        </div>
+                    </div>
                 </div>
               </div>
-            </div>
+            
         </div>
         <div className='container-fluid my-4'>
         <div className='row'>
