@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import IdentityHeroImage from '../Assets/Images/verification-2024.png'
 import { MDBBtn } from 'mdb-react-ui-kit';
 import VerificationClientSlider from './VerificationClientSlider';
+import './style.css'
 // import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 // import {CardActionArea} from '@mui/material';
@@ -212,11 +213,10 @@ function IdentityManagementSolutions() {
         </div>
         <div className='container-fluid my-4'>
             <div className='row'>
-                <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
+            <div className='col-12 text-center' style={{backgroundColor: "aliceblue"}}>
                     <p className='display-6' style={{fontWeight:"400"}}>
                         Why Choose Us ?
                     </p>
-                    <p align='justify'>As a background verification agency, our commitment to excellence sets us apart from others in the industry. Here are several reasons why our agency stands out:</p>
                 </div>
             </div>
         </div>
