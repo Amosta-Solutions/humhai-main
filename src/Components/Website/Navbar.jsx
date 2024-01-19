@@ -46,7 +46,7 @@ export default function Navbar() {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBDropdown>
-                <MDBDropdownToggle tag='a' className='nav-link navbar-item-block' role='button' active>
+                <MDBDropdownToggle tag='a' className='nav-link navbar-item-block' role='button' active >
                   Solutions
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>

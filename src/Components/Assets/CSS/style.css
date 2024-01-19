@@ -78,7 +78,7 @@
     overflow: hidden;
     height: 50px;
   }
-  
+    
   .item {
     position: relative;
     top: 0;
@@ -101,27 +101,11 @@
   }
   
   @keyframes move-up {
-    0% {
-      top: 0px;
-    }
-    20% {
-      top: -50px;
-    }
-    40% {
-      top: -96px;
-    }
-    80% {
-      top: -196px;
-    }
-    60% {
-      top: -146px;
-    }
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-100%); } 
+    50% { transform: translateY(-200%); } 
+    75% { transform: translateY(-100%); } 
+    100% { transform: translateY(0); }
   }
   
-.card-side-image
-{
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  position: relative;
-}
+
