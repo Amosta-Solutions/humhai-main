@@ -1,11 +1,9 @@
-// import logo from './logo.svg';
-// import './App.css';
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import WebsiteHome from './Components/Website/Home'
 import Navbar from "./Components/Website/Navbar";
 import IdentityManagementSolutions from "./Components/Website/IdentityManagementSolutions";
-import AboutUs from "./Components/Website/AboutUs";
+import Sidebar from './Components/Website/Sidebar';
+import AboutUs from './Components/Website/AboutUs';
 
 function App() {
   return (
@@ -15,6 +13,7 @@ function App() {
       <Routes>
         <Route index element = {<WebsiteHome/>}/>
         <Route path='/' element = {<WebsiteHome/>}/>
+        <Route path='/side' element ={<Sidebar/>}/>
         <Route path="identity-management-home" element = {<IdentityManagementSolutions/>}/>
         <Route path="aboutus" element = {<AboutUs/>}/>
       </Routes>
