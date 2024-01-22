@@ -40,7 +40,7 @@ export default function Navbar() {
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='#' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='aboutus' className='navbar-item-block'>
                     About Us
                 </MDBNavbarLink>
             </MDBNavbarItem>
