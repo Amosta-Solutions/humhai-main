@@ -1,7 +1,7 @@
 body, ul {
   margin: 0;
   padding: 0;
-  color: black;
+  color: black !important;
 }
 
 .navbar-item-block:hover {
@@ -57,4 +57,30 @@ body, ul {
   justify-content: center; 
   padding: 50px;
 
+}
+
+.home-hero-banner {
+  min-width: 100%;
+  height:auto;
+  display: flex;
+  background-color: #d8d8d8;
+ align-items: center; 
+  justify-content: center; 
+  padding: 50px;
+}
+
+.btn-bg-color
+{
+  background-color: #f16136 !important;
+}
+
+.quote
+{
+  font-family: 'Dancing Script', cursive;
+}
+
+.card-box
+{
+  border: 5px double #f16136 !important;
+  border-radius: 10px;
 }

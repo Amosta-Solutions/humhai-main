@@ -20,7 +20,7 @@ export default function Navbar() {
   const [openNavSecond, setOpenNavSecond] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light' className='shadow' stick='top'>
+    <MDBNavbar expand='lg' light bgColor='light' className='shadow' stick='top' sticky>
       <MDBContainer fluid>
         <MDBNavbarBrand href='/'>
             <img src={HumHaiLogo} alt='Hum Hai Logo' className='img-fluid'/>
