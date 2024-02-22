@@ -25,20 +25,20 @@ const Sidebar = () => {
            </div>
     </div>
     <div>
-<div class="sidebar">
-  <a href="#home">
-    <GridViewIcon style={{fontSize:"26px"}}/> DASHBOARD</a>
-  <a href="#services">
-  <WorkOutlineIcon style={{fontSize:"26px"}}/> JOBS</a>
-  <a href="#clients">
-    <PeopleOutlineIcon style={{fontSize:"26px"}}/> TABLENT POOL</a>
-  <a href="#contact">
-    <CalendarTodayIcon style={{fontSize:"26px"}}/> INTERVIEWS</a>
-  <a href="#home">
-    <ChatBubbleOutlineIcon style={{fontSize:"26px"}}/> CHATS</a>
-  <a href="#services">
+   <div class="sidebar">
+      <a href="#home">
+       <GridViewIcon style={{fontSize:"26px"}}/> DASHBOARD</a>
+     <a href="#services">
+       <WorkOutlineIcon style={{fontSize:"26px"}}/> JOBS</a>
+     <a href="#clients">
+       <PeopleOutlineIcon style={{fontSize:"26px"}}/> TABLENT POOL</a>
+     <a href="#contact">
+       <CalendarTodayIcon style={{fontSize:"26px"}}/> INTERVIEWS</a>
+     <a href="#home">
+       <ChatBubbleOutlineIcon style={{fontSize:"26px"}}/> CHATS</a>
+     <a href="#services">
     <CurrencyRupeeIcon style={{fontSize:"26px"}}/> PRICING</a>
-</div>
+  </div>
     </div>
 
     <div style={{textAlign:'center',padding:'10px'}}>Sidebar 🌍🧑🏻‍💻</div>
