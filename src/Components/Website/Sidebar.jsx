@@ -7,10 +7,12 @@ import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+import Navbar from './Navbar';
 
 const Sidebar = () => {
   return (
     <>
+    <Navbar/>
     <div className="header">
     <img src={logo} className='circular--portrait' alt=''/>
     <span style={{display:'flex',flexDirection:'column'}}>

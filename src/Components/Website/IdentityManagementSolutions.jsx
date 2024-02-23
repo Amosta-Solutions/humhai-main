@@ -11,6 +11,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 // import FormIcon from '../Assets/Images/icons/online-form.png'
 import Humhai from '../Assets/Images/clients/Humhai (2).mp4';
+import Navbar from "./Navbar";
 
 function IdentityManagementSolutions() {
      const [isLoading,setIsLoading]=useState(true)
@@ -23,6 +24,7 @@ function IdentityManagementSolutions() {
 
   return (
     <>
+    <Navbar/>
         <div className='container-fluid'>
             <div className='row identity-management-solutions-home-hero-banner'>
                 <div className='col-md-6'>

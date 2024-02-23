@@ -12,6 +12,7 @@ import SietzLogo from '../Assets/Images/clients/Verification/sietz.png'
 import STJLogo from '../Assets/Images/clients/Verification/stj.png'
 import BritishSchoolLogo from '../Assets/Images/clients/Verification/the-british-school.png'
 import VacoBinaryLogo from '../Assets/Images/clients/Verification/vaco-binary-semantics.png'
+import Navbar from "./Navbar";
 
 export default class VerificationClientSlider extends Component {
   render() {
@@ -59,6 +60,7 @@ export default class VerificationClientSlider extends Component {
   
     return (
       <div>
+        <Navbar/>
         <Slider {...settings}>
           <div className="mx-2">
             <img src={CapgeminiLogo} alt="Capgemini Logo" className="img-fluid logo-slider"/>

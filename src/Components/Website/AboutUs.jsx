@@ -19,6 +19,7 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
+import Navbar from './Navbar';
 
 const VerticalTextSlider = () => {
   const language = ["अवसर सबके लिए", "Opportunity For All", "ସମସ୍ତଙ୍କୁ ସୁଯୋଗ", "সকলোৰে বাবে সুযোগ", "ಎಲ್ಲರಿಗೂ ಅವಕಾಶ", "എല്ലാവർക്കും അവസരം", "سب کے لئے موقع", "सर्वांसाठी संधी", "அனைவருக்கும் வாய்ப்பு", "সবার জন্য সুযোগ"];
@@ -36,6 +37,7 @@ const VerticalTextSlider = () => {
   };
   return (
     <>
+    <Navbar/>
       <div className='row gx-0 about-us-home-hero-banner'>
         <div className='col-md-6 text-center'>
           <img src={HumHaiLogoWithoutSlogan} alt='Hum Hai Logo withot slogan' style={{ width: '100%', maxWidth: '340px' }} />

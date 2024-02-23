@@ -35,7 +35,7 @@ export default function Navbar() {
         <MDBCollapse navbar open={openNavSecond}>
           <MDBNavbarNav fullWidth={false} className='ms-auto mb-2 mb-lg-0'>
           <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='/' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/home' className='navbar-item-block'>
                     Home
                 </MDBNavbarLink>
             </MDBNavbarItem>
