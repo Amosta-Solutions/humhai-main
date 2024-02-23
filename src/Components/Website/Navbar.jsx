@@ -56,7 +56,7 @@ export default function Navbar() {
                   <MDBDropdownItem link>
                     <MDBIcon fas icon="hands-helping" /> Strategic Recruitment
                   </MDBDropdownItem>
-                  <MDBDropdownItem link>
+                  <MDBDropdownItem link href='/software-solution'>
                     <MDBIcon fab icon="python" /> Software Solutions
                   </MDBDropdownItem>
                   <MDBDropdownItem link>

@@ -60,7 +60,7 @@ export default class VerificationClientSlider extends Component {
   
     return (
       <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Slider {...settings}>
           <div className="mx-2">
             <img src={CapgeminiLogo} alt="Capgemini Logo" className="img-fluid logo-slider"/>

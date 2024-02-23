@@ -4,6 +4,7 @@ import IdentityManagementSolutions from "./Components/Website/IdentityManagement
 import Sidebar from './Components/Website/Sidebar';
 import AboutUs from './Components/Website/AboutUs';
 import Login from "./Components/Website/Login";
+import  {SoftwareSolution}  from "./Components/Website/SoftwareSolution";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/side' element ={<Sidebar/>}/>
         <Route path="identity-management-home" element = {<IdentityManagementSolutions/>}/>
         <Route path="aboutus" element = {<AboutUs/>}/>
+        <Route path="software-solution" element={<SoftwareSolution/>}/>
       </Routes>
     </BrowserRouter>
     </>
