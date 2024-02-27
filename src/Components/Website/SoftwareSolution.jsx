@@ -2,6 +2,7 @@ import { MDBBtn } from 'mdb-react-ui-kit'
 import React from 'react'
 import IdentityHeroImage from "../Assets/Images/verification-2024.png";
 import Navbar from "./Navbar";
+import Footer from './Footer';
 export const SoftwareSolution = () => {
   return (
     <div>
@@ -151,6 +152,7 @@ export const SoftwareSolution = () => {
                
             </div>
         </div>
+        <Footer/>
     </div>
   )
 }

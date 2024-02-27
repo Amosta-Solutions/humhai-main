@@ -20,6 +20,7 @@ import Recruitment from '../Assets/Images/recruitment.png'
 import it from '../Assets/Images/it.jpg'
 import project_managment from '../Assets/Images/project_managment.jpg'
 import Navbar from '../Website/Navbar'
+import Footer from './Footer';
 
 const Home = () => {
   const [hover,setHover] =useState(false)
@@ -190,11 +191,11 @@ const Home = () => {
           </div>
           <div className='col-md-3 text-center my-2'>
             <MDBCard className='card-box'>
-              <img className='img-fluid text-center' src={Recruitment} alt="Recruitment"/>
+              <img className='img-fluid text-center' src={project_managment} alt="project_managment" style={{maxWidth:'90%',margin:'auto'}}/>
               <MDBCardBody>
                 <MDBCardTitle>Project Managment</MDBCardTitle>
                 <MDBCardText>
-                  <p align='justify'>Hire the best talent for your organisation. Be it blue collar workforce or smart tech geeks, we are just a phone call away.</p>
+                  <p align='justify'>Efficient project management for timely, within-budget delivery, ensuring client satisfaction and success.</p>
                 </MDBCardText>
                 <MDBBtn className='btn-block btn-bg-color' href='#'>Lets Go</MDBBtn>
               </MDBCardBody>
@@ -202,6 +203,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

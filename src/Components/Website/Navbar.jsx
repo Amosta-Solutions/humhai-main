@@ -40,7 +40,7 @@ export default function Navbar() {
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='aboutus' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/aboutus' className='navbar-item-block'>
                     About Us
                 </MDBNavbarLink>
             </MDBNavbarItem>
@@ -53,43 +53,43 @@ export default function Navbar() {
                   <MDBDropdownItem link href='identity-management-home'>
                     <MDBIcon fas icon="user-check" /> Background Verification
                   </MDBDropdownItem>
-                  <MDBDropdownItem link>
-                    <MDBIcon fas icon="hands-helping" /> Strategic Recruitment
+                  <MDBDropdownItem link href='/strategic'>
+                    <MDBIcon fas icon="hands-helping" href='/strategic' /> Strategic Recruitment
                   </MDBDropdownItem>
-                  <MDBDropdownItem link href='/software-solution'>
-                    <MDBIcon fab icon="python" /> Software Solutions
+                  <MDBDropdownItem link href='/softwaresolution'>
+                    <MDBIcon fab icon="python" href='/softwaresolution' /> Software Solutions
                   </MDBDropdownItem>
-                  <MDBDropdownItem link>
-                    <MDBIcon fas icon="project-diagram" /> Project Management
+                  <MDBDropdownItem link href='/projectmanagment'>
+                    <MDBIcon fas icon="project-diagram" href='/projectmanagment' /> Project Management
                   </MDBDropdownItem>
-                  <MDBDropdownItem link>
-                    <MDBIcon fas icon="calendar-check" /> Event Management
+                  <MDBDropdownItem link href='/event'>
+                    <MDBIcon fas icon="calendar-check" href='/event' /> Event Management
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='#' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/employee' className='navbar-item-block'>
                     Employment
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='#' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/opportuninty' className='navbar-item-block'>
                     Opportunities
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='#' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/startup' className='navbar-item-block'>
                     StartUp Studio
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='#' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/career' className='navbar-item-block'>
                     Careers
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='#' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/contact' className='navbar-item-block'>
                     Contact Us
                 </MDBNavbarLink>
             </MDBNavbarItem>

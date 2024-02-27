@@ -20,6 +20,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const VerticalTextSlider = () => {
   const language = ["अवसर सबके लिए", "Opportunity For All", "ସମସ୍ତଙ୍କୁ ସୁଯୋଗ", "সকলোৰে বাবে সুযোগ", "ಎಲ್ಲರಿಗೂ ಅವಕಾಶ", "എല്ലാവർക്കും അവസരം", "سب کے لئے موقع", "सर्वांसाठी संधी", "அனைவருக்கும் வாய்ப்பு", "সবার জন্য সুযোগ"];
@@ -262,6 +263,7 @@ const VerticalTextSlider = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

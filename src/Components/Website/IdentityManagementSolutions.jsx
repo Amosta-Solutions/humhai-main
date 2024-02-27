@@ -12,6 +12,7 @@ import Typography from "@mui/material/Typography";
 // import FormIcon from '../Assets/Images/icons/online-form.png'
 import Humhai from '../Assets/Images/clients/Humhai (2).mp4';
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function IdentityManagementSolutions() {
      const [isLoading,setIsLoading]=useState(true)
@@ -407,6 +408,7 @@ function IdentityManagementSolutions() {
                 </div>
             </div>
         </div>
+        <Footer/>
     </>
   );
 }

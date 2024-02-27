@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Website/Login.css'
 import { useNavigate } from 'react-router-dom';
-import login from '../Assets/Images/login.jpg'
-import signup from '../Assets/Images/signup.jpg'
+import login from '../Assets/Images/Login- Image.jpg'
+import signup from '../Assets/Images/Sign up- Image.jpg'
 
 const Login = () => {
     const navigate=useNavigate()
@@ -11,14 +11,14 @@ const Login = () => {
         var containers = document.querySelector(".containers");
         containers.classList.toggle("active");
       }
-      
+
       const handleClick=()=>{
          navigate('/home')
       }
 
   return (
     <div>
-   <section>
+   <section className='sectionss'>
   <div className="containers">
     <div className="user signinBx">
       <div className="imgBx"><img src={signup} alt='' /></div>
