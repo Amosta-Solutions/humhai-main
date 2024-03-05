@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { IoCallOutline } from 'react-icons/io5';
@@ -22,9 +22,11 @@ const ContactUs = () => {
     <>
       <Navbar />
       <div>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
-              <img src={back} alt='' style={{maxWidth: '100%', height: 'auto', objectFit:'contain', position: 'fixed', top: 80, left: 0, zIndex: -1,
-                         width: '100vw', maxHeight: '150vh', }}/>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
+          <img src={back} alt='' style={{
+            maxWidth: '100%', height: 'auto', objectFit: 'contain', position: 'fixed', top: 80, left: 0, zIndex: -1,
+            width: '100vw', maxHeight: '150vh',
+          }} />
 
         </div>
 
@@ -88,92 +90,92 @@ const ContactUs = () => {
               ></iframe>
             </div>
           </div>
-          <div style={{marginTop:'5%',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
-           <h2 style={{textAlign:'center'}}>CONTACT US</h2>
-            <div style={{width:'50%',height:'auto',padding:'20px',flexDirection:'column'}}>
-       
-          <form >
-             <Grid container spacing={2} style={{padding:'20px'}}>
-               <Grid xs={12} style={{margin:'10px'}}>
-                <TextField
-                  fullWidth
-                  label="Full Name"
-                  variant="outlined"
-                  value={full_name}
-                  onChange={(e) => {
-                    setFullName(e.target.value);
-                  }}
-                  required
-                />
+          <div style={{ marginTop: '5%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+            <h2 style={{ textAlign: 'center' }}>CONTACT US</h2>
+            <div style={{ width: '50%', height: 'auto', padding: '20px', flexDirection: 'column' }}>
+
+              <form >
+                <Grid container spacing={2} style={{ padding: '20px' }}>
+                  <Grid xs={12} style={{ margin: '10px' }}>
+                    <TextField
+                      fullWidth
+                      label="Full Name"
+                      variant="outlined"
+                      value={full_name}
+                      onChange={(e) => {
+                        setFullName(e.target.value);
+                      }}
+                      required
+                    />
+                  </Grid>
+                  <Grid xs={12} style={{ margin: '10px' }}>
+                    <TextField
+                      fullWidth
+                      label="Mobile Number"
+                      variant="outlined"
+                      value={mobile}
+                      onChange={(e) => {
+                        setMobile(e.target.value);
+                      }}
+                      required
+                    />
+                  </Grid>
+                  <Grid xs={12} style={{ margin: '10px' }}>
+                    <TextField
+                      fullWidth
+                      label="Email ID"
+                      variant="outlined"
+                      value={email}
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                      }}
+                    />
+                  </Grid>
+                  <Grid xs={12} style={{ margin: '10px' }}>
+                    <TextField
+                      fullWidth
+                      label="Subject"
+                      defaultValue=" "
+                      variant="outlined"
+                      value={subject}
+                      onChange={(e) => {
+                        setSubject(e.target.value);
+                      }}
+                      required
+                    />
+                  </Grid>
+                  <Grid xs={12} style={{ margin: '10px' }}>
+                    <TextField
+                      style={{ width: '100%' }}
+                      label="Message"
+                      multiline
+                      required
+                      rows={4}
+                      defaultValue=" "
+                      value={message}
+                      onChange={(e) => {
+                        setMessage(e.target.value);
+                      }}
+                    />
+                  </Grid>
+                  <Grid xs={12} style={{ margin: '10px' }}>
+                    <Stack direction="row" spacing={2} className="my-2">
+                      <Button
+                        variant="contained"
+                        endIcon={<SendIcon />}
+                        type="submit"
+                        fullWidth
+                      >
+                        Submit
+                      </Button>
+                    </Stack>
+                  </Grid>
                 </Grid>
-                <Grid xs={12} style={{margin:'10px'}}>
-                <TextField
-                  fullWidth
-                  label="Mobile Number"
-                  variant="outlined"
-                  value={mobile}
-                  onChange={(e) => {
-                    setMobile(e.target.value);
-                  }}
-                  required
-                />
-                </Grid>
-                <Grid xs={12} style={{margin:'10px'}}>
-                <TextField
-                  fullWidth
-                  label="Email ID"
-                  variant="outlined"
-                  value={email}
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                  }}
-                />
-                </Grid>
-                <Grid xs={12} style={{margin:'10px'}}>
-                <TextField
-                  fullWidth
-                  label="Subject"
-                  defaultValue=" "
-                  variant="outlined"
-                  value={subject}
-                  onChange={(e) => {
-                    setSubject(e.target.value);
-                  }}
-                  required
-                />
-                </Grid>
-                <Grid xs={12} style={{margin:'10px'}}>
-              <TextField
-              style={{width:'100%'}}
-                label="Message"
-                multiline
-                required
-                rows={4}
-                defaultValue=" "
-                value={message}
-                onChange={(e) => {
-                  setMessage(e.target.value);
-                }}
-              />
-              </Grid>
-              <Grid xs={12} style={{margin:'10px'}}>
-              <Stack direction="row" spacing={2} className="my-2">
-                <Button
-                  variant="contained"
-                  endIcon={<SendIcon />}
-                  type="submit"
-                  fullWidth
-                >
-                  Submit
-                </Button>
-              </Stack>
-              </Grid>
-              </Grid>
-            </form>
-       </div>
-     </div>
+              </form>
+            </div>
+          </div>
         </div>
-        
+
       </div>
       <Footer />
     </>
