@@ -13,6 +13,8 @@ import { SoftwareSolution } from "./Components/Website/SoftwareSolution";
 import  ProjectManagement  from "./Components/Website/ProjectManagement";
 import { Opportunity } from "./Components/Website/Opportunity";
 import { Employment } from "./Components/Website/Employment";
+import { JobsDetails } from "./Components/jobs/JobsDetails";
+import {Jobs} from './Components/jobs/Jobs';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
         <Route path="/softwaresolution" element={<SoftwareSolution/>} />
         <Route path="/projectmanagment" element={<ProjectManagement/>}/>
         <Route path="/opportuninty" element={<Opportunity/>} />
+        <Route path="/jobdetails" element={<JobsDetails/>}/>
+        <Route path='/job' element={<Jobs/>} />
 
       </Routes>
     </BrowserRouter>

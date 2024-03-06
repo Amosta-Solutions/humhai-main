@@ -1,0 +1,208 @@
+.jobs{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+.jobs h2{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 30px;
+}
+.jobs-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-container > div {
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+  }
+.jobs-box{
+  width: 350px;
+  height: 230px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  padding: 5px;
+}
+.jobs-box:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+ }
+    
+    
+.jobs-box p{
+ font-size: 16px;
+ font-weight: 400;
+ margin: 5px 20px;
+}
+
+.jobs-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+.button1{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #198754;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.button2{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #DC3545;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.button3{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0D6EFD;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.jobs-button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.button4{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(237, 129, 14);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+
+}
+.button4:hover{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    background: rgb(237, 129, 14);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.button4:active{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(237, 129, 14);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.button5{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    color: #AA66CC;
+    outline: none;
+    border: 1px solid #AA66CC;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+}
+.button5:hover{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #AA66CC;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.button5:active{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    color: #AA66CC;
+    outline: none;
+    border: 1px solid #AA66CC;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.img-fluid{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@media(max-width:1280px){
+    .jobs-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+      padding: 10px;
+      justify-content: center;
+    }
+
+}
+@media(max-width:1024px){
+    .jobs-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+      padding: 10px;
+      justify-content: center;
+    }
+
+}
+@media(max-width:800px){
+    .jobs-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+      padding: 10px;
+      justify-content: center;
+    }
+}
+@media(max-width:600px){
+    .jobs-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 30px;
+      padding: 10px;
+      justify-content: center;
+    }
+}
