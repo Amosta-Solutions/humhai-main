@@ -1,208 +1,1008 @@
-.jobs{
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: auto;
+.jobs {
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  background-color: #f4f2f6;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
-.jobs h2{
-    text-align: center;
-    margin: 10px auto;
-    font-weight: 500;
-    font-size: 30px;
-}
-.jobs-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
+
+.jobs-container {
   padding: 10px;
   justify-content: center;
+  align-items: center;
+  display: grid;
+  padding: 10px;
 }
-.grid-container > div {
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 30px;
-  }
-.jobs-box{
-  width: 350px;
-  height: 230px;
-  border-radius: 15px;
+
+.jobs-box {
+  width: 360px;
+  min-height: 180px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
-  padding: 5px;
-}
-.jobs-box:hover{
-    transform: scale(1.1);
-    transition: 0.3s ease;
- }
-    
-    
-.jobs-box p{
- font-size: 16px;
- font-weight: 400;
- margin: 5px 20px;
+  padding: 15px;
+  background: white;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px auto;
 }
 
-.jobs-button{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.jobs-box p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 10px;
+  color: rgb(140, 133, 148);
+}
+
+.jobs h5 {
+  font-size: 16px;
+  margin: auto 10px;
+  font-weight: 500;
+}
+
+.jobs h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 2px 10px;
+  color: rgb(140, 133, 148);
+}
+.job-box-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.job-box-button button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #1f827f;
+  color: #1f827f;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+}
+.job-box-button button:hover {
+  border: 1px solid #1f827f;
+  color: white;
+  background-color: #1f827f;
+}
+.job-box-button button:active {
+  border: 1px solid #1f827f;
+  color: #1f827f;
+  background-color: white;
+}
+.jobs-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+
+.jobs-boxess {
+  width: auto;
+  height: 35px;
+  background: #f2f2f3;
+  color: rgb(130, 116, 133);
+  text-align: center;
+}
+
+.jobs-boxess p {
+  color: rgb(130, 116, 133);
+  font-size: 12px !important;
+}
+
+.img-fluid1 {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* First Box ........... */
+.jobs-box1 {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  padding: 15px;
+  background: white;
+  align-items: center;
+  cursor: pointer;
+  margin: 22px auto;
+}
+
+.JobFilter {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobprofilebox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.filterSection p {
+  margin: 0;
+}
+.filtermap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filtermap p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.salaryLabels p {
+  font-size: 14px;
+}
+.radioGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+.radioGroup div {
+  flex: 1 0 100%;
+}
+
+.salarySlider {
+  margin: 10px;
+  align-items: center;
+}
+
+.salarySlider p {
+  margin: 0 2px 0 0;
+}
+
+.salaryLabels {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Third Box ........... */
+.jobs-box2 {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  padding: 15px;
+  background: white;
+  cursor: pointer;
+  margin: 22px auto;
+}
+
+.jobs-box3 {
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 22px 10px;
+}
+.jobs-box3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.jobs-box2 p {
+  text-align: center;
+  font-size: 17px;
+  margin: 10px auto;
+  font-weight: 500;
+}
+.profilebutton {
+  display: ruby-text;
+}
+.profilebutton button {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #1f827f;
+  color: #1f827f;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+}
+.jobs-box3 {
+  min-height: 320px;
+}
+.jobprofilebox {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin: auto;
+}
+/* job post form css */
+.jobform {
+  margin: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #f0eef2;
+}
+.jobform h2 {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 5px auto;
+  gap: 5px;
+}
+
+.form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+.jobform1 {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #f0eef2;
+  flex-wrap: nowrap;
+}
+.box-container {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #f0eef2;
+}
+.jobform-box {
+  width: 70%;
+  height: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+.jobform-box1 {
+  padding: 20px;
+  background: white;
+}
+/* ..................................... */
+
+/* userprofile css............... */
+.userProfile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  gap: 20px;
+  background-color: #f4f5f7;
+}
+.userProfile-box1 {
+  width: 420px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  padding: 15px;
+  background: white;
+  cursor: pointer;
+  margin: 12px 10px;
+}
+.userProfile-box2 {
+  width: 420px;
+  height: auto;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff6f1;
+  border: 1px solid #852000;
+  cursor: pointer;
+  margin: 12px 10px;
+}
+.userProfile-box-check {
+  display: flex;
+  flex-direction: column;
+}
+.userProfile-contain {
+  display: flex;
+  flex-direction: row;
+}
+.userProfile-contain1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.userProfile-contain1 p {
+  font-size: 14px;
+  margin: auto 5px;
+  color: #9a938c;
+  font-weight: 400;
+}
+.userProfile-contain1 h6 {
+  font-size: 14px;
+}
+.userProfile-contain img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.userProfile-contain p {
+  font-size: 14px;
+  margin: auto 5px;
+  color: #9a938c;
+  font-weight: 400;
+}
+.userProfile-contain1-box p {
+  font-size: 15px;
+  color: #852000;
+  font-weight: 700;
+  text-align: center;
+}
+.userProfile-contain1-boxes {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: 1px solid #852000;
+  background: #fed8c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userProfile-contain1-boxes-contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.userProfile-box4 {
+  width: 420px;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 12px 10px;
+}
+.userProfile-box4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.line {
+  border: none;
+  border-top: 2px solid #852000;
+  width: 220px;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+@media (max-width: 1024px) {
+  .jobs-box {
+    width: 280px;
+    min-height: 180px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
+    align-items: center;
+    cursor: pointer;
     margin: 10px auto;
-}
-.button1{
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #e1e8e4;
-    color: rgb(21, 20, 20);
-    outline: none;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
+  }
 
-}
-.button2{
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #DC3545;
-    color: white;
-    outline: none;
-    border: none;
-    font-size: 14px;
+  /* First Box ........... */
+  .jobs-box1 {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
+    align-items: center;
     cursor: pointer;
+    margin: 22px auto;
+  }
 
-}
-.button3{
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #0D6EFD;
-    color: white;
-    outline: none;
-    border: none;
-    font-size: 14px;
+  /* Third Box ........... */
+  .jobs-box2 {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
     cursor: pointer;
+    margin: 22px 10px;
+  }
 
+  .jobs-box3 {
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 22px 10px;
+  }
+  .jobs-box3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .jobs-box2 p {
+    text-align: center;
+    font-size: 17px;
+    margin: 10px auto;
+    font-weight: 500;
+  }
+  .profilebutton {
+    display: ruby-text;
+  }
+  .profilebutton button {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #1f827f;
+    color: #1f827f;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+    border-radius: 2px;
+  }
+  .userProfile-box1 {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 25px;
+    background: white;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .userProfile-box2 {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff6f1;
+    border: 1px solid #852000;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
 }
-.jobs-button1{
+@media (max-width: 800px) {
+  .jobs {
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    background-color: #f4f2f6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .jobs-box {
+    width: 550px;
+    min-height: 180px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+
+  /* First Box ........... */
+  .jobs-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    height: auto;
+    border-radius: none;
+    box-shadow: none;
+    padding: 10px;
+    background: none;
+    align-items: center;
+    cursor: pointer;
+    margin: 22px auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .jobs-box1::-webkit-scrollbar {
+    display: none;
+  }
+
+  .JobFilter {
+    margin: none;
+    border-radius: none;
+  }
+
+  .filters {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+  }
+
+  .jobprofilebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .filterSection {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(140, 133, 148);
+    background: white;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto 5px;
+  }
+
+  .filterSection p {
+    margin: 0;
+  }
+  .filtermap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px;
+    align-items: center;
+  }
+  .filtermap p {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+  /*___________*_____ open Modal css______________*____ */
+
+  .modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+  }
+
+  .modal.open {
+    transform: translateY(0%);
+  }
+
+  .salaryLabels p {
+    font-size: 14px;
+  }
+
+  .radioGroup {
+    display: none;
+    flex-wrap: wrap;
+  }
+
+  .boxcheck {
+    display: none;
+  }
+
+  .radioGroup div {
+    flex: none;
+  }
+
+  .salarySlider {
+    margin: 10px;
+    align-items: center;
+  }
+
+  .salarySlider p {
+    margin: 0 2px 0 0;
+  }
+
+  .salaryLabels {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Third Box ........... */
+  .jobs-box2 {
+    display: none;
+  }
+
+  .jobs-box3 {
+    display: none;
+  }
+  .open-modal {
+    margin: auto;
+    padding: auto;
+  }
+  .open-modal p {
+    color: #8c8594;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .modal-boxes {
+    width: 100%;
+    background: #8c8594;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    align-items: flex-start;
+  }
+  .modal-boxes p {
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .modal-boxes p:active {
+    margin: auto;
+    cursor: pointer;
+    color: white;
+  }
+  .modal-boxes1 {
+    width: 100%;
+    height: 60px;
+    background: white;
+    text-align: center;
+    color: rgb(31, 130, 104);
+    font-size: 16px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+    align-items: baseline;
+  }
+  .modal-boxes1 button {
+    background: rgb(31, 130, 104);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .modal-boxes1 button:active {
+    background: white;
+    color: rgb(31, 130, 104);
+  }
+  .blKkOK {
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .w3-bar-item.active {
+    background-color: #ffffff;
+    color: #333;
+  }
+  .userProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 20px auto;
-}
-.button4{
-    width: 130px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: white;
-    color: rgb(237, 129, 14);
-    outline: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
-
-}
-.button4:hover{
-    width: 130px;
-    height: 45px;
-    border-radius: 10px;
-    background: rgb(237, 129, 14);
-    color: white;
-    outline: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-
-}
-.button4:active{
-    width: 130px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: white;
-    color: rgb(237, 129, 14);
-    outline: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-
-}
-.button5{
-    width: 100px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: white;
-    color: #AA66CC;
-    outline: none;
-    border: 1px solid #AA66CC;
-    font-size: 15px;
-    cursor: pointer;
-    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
-}
-.button5:hover{
-    width: 100px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: #AA66CC;
-    color: white;
-    outline: none;
-    border: none;
-    font-size: 15px;
-    cursor: pointer;
-
-}
-.button5:active{
-    width: 100px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: white;
-    color: #AA66CC;
-    outline: none;
-    border: 1px solid #AA66CC;
-    font-size: 15px;
-    cursor: pointer;
-
-}
-.img-fluid{
-    width: 50%;
-    max-width: 100%;
+    padding: 10px;
+    gap: 20px;
+    background-color: #f4f5f7;
+  }
+  .userProfile-box1 {
+    width: 600px;
     height: auto;
-    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 25px;
+    background: white;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .userProfile-box2 {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff6f1;
+    border: 1px solid #852000;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .userProfile-box4 {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .line {
+    border: none;
+    border-top: 2px solid #852000;
+    width: 360px;
+    margin: 30px auto;
+    display: inline-block;
+  }
 }
-@media(max-width:1280px){
-    .jobs-container{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 30px;
-      padding: 10px;
-      justify-content: center;
-    }
 
-}
-@media(max-width:1024px){
-    .jobs-container{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 30px;
-      padding: 10px;
-      justify-content: center;
-    }
+@media (max-width: 600px) {
+  .jobs {
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    background-color: #f4f2f6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .jobs-box {
+    width: 350px;
+    min-height: 180px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px auto;
+  }
 
-}
-@media(max-width:800px){
-    .jobs-container{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 30px;
-      padding: 10px;
-      justify-content: center;
-    }
-}
-@media(max-width:600px){
-    .jobs-container{
-        display: grid;
-        grid-template-columns: auto;
-        grid-gap: 30px;
-      padding: 10px;
-      justify-content: center;
-    }
+  /* First Box ........... */
+  .jobs-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: auto;
+    border-radius: none;
+    box-shadow: none;
+    padding: 10px;
+    background: none;
+    align-items: center;
+    cursor: pointer;
+    margin: 22px auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .jobs-box1::-webkit-scrollbar {
+    display: none;
+  }
+
+  .JobFilter {
+    margin: none;
+    border-radius: none;
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .jobprofilebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .filterSection {
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(140, 133, 148);
+    background: white;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto 2px;
+  }
+
+  .filterSection p {
+    margin: 0;
+  }
+  .filtermap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px;
+    align-items: center;
+  }
+  .filtermap p {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+  }
+  /*___________*_____ open Modal css______________*____ */
+
+  .modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+  }
+
+  .modal.open {
+    transform: translateY(0%);
+  }
+
+  .salaryLabels p {
+    font-size: 14px;
+  }
+
+  .radioGroup {
+    display: none;
+    flex-wrap: wrap;
+  }
+
+  .boxcheck {
+    display: none;
+  }
+
+  .radioGroup div {
+    flex: none;
+  }
+
+  .salarySlider {
+    margin: 10px;
+    align-items: center;
+  }
+
+  .salarySlider p {
+    margin: 0 2px 0 0;
+  }
+
+  .salaryLabels {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Third Box ........... */
+  .jobs-box2 {
+    display: none;
+  }
+
+  .jobs-box3 {
+    display: none;
+  }
+  .open-modal {
+    margin: auto;
+    padding: auto;
+  }
+  .open-modal p {
+    color: #8c8594;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .modal-boxes {
+    width: 100%;
+    background: #8c8594;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    align-items: flex-start;
+  }
+  .modal-boxes p {
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .modal-boxes p:active {
+    margin: auto;
+    cursor: pointer;
+    color: white;
+  }
+  .modal-boxes1 {
+    width: 100%;
+    height: 60px;
+    background: white;
+    text-align: center;
+    color: rgb(31, 130, 104);
+    font-size: 16px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+    align-items: baseline;
+  }
+  .modal-boxes1 button {
+    background: rgb(31, 130, 104);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .modal-boxes1 button:active {
+    background: white;
+    color: rgb(31, 130, 104);
+  }
+  .blKkOK {
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .w3-bar-item.active {
+    background-color: #ffffff;
+    color: #333;
+  }
+  .userProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    gap: 20px;
+    background-color: #f4f5f7;
+  }
+  .userProfile-box1 {
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 25px;
+    background: white;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .userProfile-box2 {
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff6f1;
+    border: 1px solid #852000;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .userProfile-box4 {
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px 10px;
+  }
+  .jobs-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px;
+  }
 }

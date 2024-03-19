@@ -6,12 +6,13 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import Slide from "@mui/material/Slide";
 import CloseIcon from "@mui/icons-material/Close";
+import EditIcon from "@mui/icons-material/Edit";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="right" ref={ref} {...props} />;
 });
 
-const JobFormModal = () => {
+const ForgotPassword = () => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -24,9 +25,12 @@ const JobFormModal = () => {
 
   return (
     <React.Fragment>
-      <Button variant="contained" onClick={handleClickOpen}>
-        Add Company
-      </Button>
+        <div>
+        <EditIcon
+          style={{ color: "rgb(31, 130, 104)" }}
+          onClick={handleClickOpen}
+        />
+      </div>
       <Dialog
         open={open}
         TransitionComponent={Transition}
@@ -40,40 +44,21 @@ const JobFormModal = () => {
             justifyContent: "space-between",
           }}
         >
-          <div>Add Company Fields</div>
+          <div>Change Password</div>
           <div style={{ cursor: "pointer" }}>
             <CloseIcon onClick={handleClose} style={{color:'rgb(31, 130, 104)'}}/>
           </div>
         </DialogTitle>
         <DialogContent>
           <Grid container spacing={2}>
-            <Grid item xs={12} md={6} style={{ marginTop: "10px" }}>
-              <TextField fullWidth label="Company Name" variant="outlined" />
+            <Grid item xs={12} md={12} style={{ marginTop: "10px" }}>
+              <TextField fullWidth label="Current Password" variant="outlined" />
             </Grid>
-            <Grid item xs={12} md={6} style={{ marginTop: "10px" }}>
-              <TextField fullWidth label="PinCode" variant="outlined" />
+            <Grid item xs={12} md={12} style={{ marginTop: "10px" }}>
+              <TextField fullWidth label="New Password" variant="outlined" />
             </Grid>
-            <Grid item xs={12} md={6}>
-              <TextField fullWidth label="Location" variant="outlined" />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <TextField fullWidth label="District" variant="outlined" />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <TextField fullWidth label="State" variant="outlined" />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <TextField fullWidth label="Country" variant="outlined" />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                fullWidth
-                label="About Company"
-                variant="outlined"
-                multiline
-                required
-                rows={4}
-              />
+            <Grid item xs={12} md={12}>
+              <TextField fullWidth label="Confirm New Password" variant="outlined" />
             </Grid>
           </Grid>
         </DialogContent>
@@ -90,4 +75,4 @@ const JobFormModal = () => {
   );
 };
 
-export default JobFormModal;
+export default ForgotPassword;

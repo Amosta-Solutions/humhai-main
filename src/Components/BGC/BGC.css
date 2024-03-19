@@ -1,0 +1,338 @@
+.backgrounddetails-heading {
+  background: #5bab9a;
+  align-items: center;
+  padding: 10px;
+}
+.backgrounddetails-heading p {
+  text-align: center;
+  font-size: 32px;
+  margin: auto;
+  font-weight: 500;
+}
+.backgrounddetails-button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+.backgrounddetails-button button {
+  border: 1px solid #1f827f;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f827f;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 2px;
+}
+.backgrounddetails-button button:hover {
+  background: #1f827f;
+  color: white;
+}
+.backgrounddetails-button button:active {
+  color: #1f827f;
+  background: white;
+}
+.background {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  background: #f4f2f6;
+}
+.background-box0 {
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  padding: 15px;
+  background: white;
+  align-items: center;
+  cursor: pointer;
+  margin: 22px auto;
+  text-align: -webkit-center;
+}
+.background-box1 {
+  width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  padding: 15px;
+  background: white;
+  align-items: center;
+  cursor: pointer;
+  margin: 22px auto;
+}
+.background-button1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.background-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 15px solid #cccccc;
+  align-items: center;
+}
+.background-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.background-button1 button {
+  width: 130px;
+  height: auto;
+  border: 1px solid #1f827f;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f827f;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.background-button1 button.active {
+  background: #1f827f;
+  color: white;
+}
+
+.background-button1 button:hover {
+  background: #1f827f;
+  color: white;
+}
+
+.bgcpersonal .button1 {
+  width: 100%;
+  height: auto;
+  border: 1px solid #1f827f;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f827f;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px auto;
+}
+.bgcpersonal .button1:hover {
+  background: #1f827f;
+  color: white;
+}
+.bgcpersonal .button1:active {
+  border: 1px solid #1f827f;
+  color: #1f827f;
+  background: white;
+}
+
+.bgcemployeement button {
+  border: 1px solid #1f827f;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f827f;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: auto 15px;
+}
+.bgcemployeement button:hover {
+  background: #1f827f;
+  color: white;
+}
+.bgcemployeement button:active {
+  border: 1px solid #1f827f;
+  color: #1f827f;
+  background: white;
+}
+
+#customers1 {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers1 td,
+#customers1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers1 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1f827f;
+  color: white;
+}
+
+.bgcpersonal {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.bgcpersonal select,
+.bgcpersonal input,
+.bgcpersonal textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.bgcpersonal label {
+  font-weight: bold;
+}
+
+.bgcpersonal input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.bgcpersonal textarea {
+  resize: vertical;
+}
+
+/* BGCDOCPAGE.css */
+.bgcdocdata {
+  padding: 20px;
+}
+
+.backgrounddoc-heading {
+  background: #5bab9a;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.backgrounddoc-button1 button {
+  border: 1px solid #1f827f;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f827f;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 2px;
+  margin: auto 10px;
+}
+
+.backgrounddoc-button1 button:hover {
+  background: #1f827f;
+  color: white;
+}
+
+.backgrounddoc-button1 button:active {
+  color: #1f827f;
+  background: white;
+}
+
+.bgcdocdata {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bgcdocdata-box1 {
+  flex: 0 0 48%;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+  margin-top: 100px;
+}
+.bgcdocdata-box2 {
+  flex: 0 0 48%;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+}
+.bgcdocdata-box2 p {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+.bgcdocdata-box2 img {
+  max-width: 100%;
+  height: 378px;
+  object-fit: contain;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+.bgcdocdata-box1 p {
+  font-size: 22px;
+  font-weight: 500;
+  /* text-align: center; */
+}
+
+.bgcdocdata-box1 img {
+  max-width: 100%;
+  height: 378px;
+  object-fit: contain;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+@media (max-width: 1000px) {
+  .background-box0 {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .background-box0 {
+    display: none;
+  }
+  .background-box1 {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
+    align-items: center;
+    cursor: pointer;
+    margin: 22px auto;
+    overflow-x: scroll;
+  }
+  .background-box1::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .background-box0 {
+    display: none;
+  }
+  .background-box1 {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(43, 43, 43, 0.5);
+    padding: 15px;
+    background: white;
+    align-items: center;
+    cursor: pointer;
+    margin: 22px auto;
+  }
+}

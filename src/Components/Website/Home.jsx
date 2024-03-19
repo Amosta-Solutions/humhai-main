@@ -8,7 +8,6 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  // MDBCardImage,
   MDBBtn
 } from 'mdb-react-ui-kit';
 import JobSearch from '../Assets/Images/job-search.png'
@@ -73,8 +72,6 @@ const Home = () => {
             <h1 className='display-6 '>
               What Do We Offer?
             </h1>
-
-            {/* Shown on medium screens and larger */}
           </div>
           <div className='col-12 text-center d-md-none'>
             <h1 className='display-6 '>
@@ -124,13 +121,16 @@ const Home = () => {
               <img className='img-fluid text-center' src={SkillDevelopment} alt="StartUp Studio"/>
               <MDBCardBody>
                 <MDBCardTitle>Skill Development</MDBCardTitle>
-                <MDBCardText onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
-                  {
-                   !hover?<p align='justify'>{text.substring(0, 95)+ "..." }</p>: <p align='justify'>{text}</p>
-                  }
-                  
-                 
+                <MDBCardText onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                 {
+                  !hover ? (
+                   <span align='justify'>{text.substring(0, 95) + "..."}</span>
+                     ) : (
+                   <span align='justify'>{text}</span>
+                  )
+                 }
                 </MDBCardText>
+
                 <MDBBtn className='btn-block btn-bg-color' href='#'>Lets Go</MDBBtn>
               </MDBCardBody>
             </MDBCard>
@@ -143,8 +143,6 @@ const Home = () => {
             <h1 className='display-6 '>
               Our Services
             </h1>
-
-            {/* Shown on medium screens and larger */}
           </div>
           <div className='col-12 text-center d-md-none'>
             <h1 className='display-6 '>

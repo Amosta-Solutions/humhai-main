@@ -10,7 +10,7 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import img from "../Assets/Images/Job feed - Desktop - Track Applications.webp";
 import UserProfileModal from "./UserProfileModal";
-
+import ForgotPassword from "./ForgotPassword";
 const UserProfile = () => {
   return (
     <>
@@ -23,9 +23,17 @@ const UserProfile = () => {
                 <img src={HumHaiLogo} alt="" />
               </div>
               <div>
-                <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between'}}>
-                <h6>Ankit Kumar Jha</h6>
-                <div><UserProfileModal/></div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <h6>Ankit Kumar Jha</h6>
+                  <div>
+                    <UserProfileModal />
+                  </div>
                 </div>
                 <div style={{ display: "flex", margin: "auto 5px" }}>
                   <div style={{ alignItems: "baseline" }}>
@@ -77,6 +85,22 @@ const UserProfile = () => {
                   <h6>Hometown</h6>
                   <p>Gwalior, MP</p>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="userProfile-box1">
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+              }}
+            >
+              <div>
+                <h6 style={{color:'#1F827F'}}>Forgot Password</h6>
+              </div>
+              <div>
+                <ForgotPassword />
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ const Sidebar = () => {
            </div>
     </div>
     <div>
-   <div class="sidebar">
+   <div className="sidebar">
       <a href="#home">
        <GridViewIcon style={{fontSize:"26px"}}/> DASHBOARD</a>
      <a href="#services">

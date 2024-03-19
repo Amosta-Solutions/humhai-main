@@ -19,6 +19,7 @@ import HumHaiLogo from '../Assets/Images/hum-hai-logo-2023.png'
 export default function Navbar() {
   const [openNavSecond, setOpenNavSecond] = useState(false);
 
+
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow' stick='top' sticky>
       <MDBContainer fluid>
@@ -35,7 +36,7 @@ export default function Navbar() {
         <MDBCollapse navbar open={openNavSecond}>
           <MDBNavbarNav fullWidth={false} className='ms-auto mb-2 mb-lg-0'>
           <MDBNavbarItem>    
-                <MDBNavbarLink active aria-current='page' href='/home' className='navbar-item-block'>
+                <MDBNavbarLink active aria-current='page' href='/'  className='navbar-item-block'>
                     Home
                 </MDBNavbarLink>
             </MDBNavbarItem>
@@ -46,16 +47,16 @@ export default function Navbar() {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBDropdown>
-                <MDBDropdownToggle tag='a' className='nav-link navbar-item-block' role='button' active >
+                <MDBDropdownToggle tag='a' className='nav-link navbar-item-block' role='button' >
                   Solutions
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem link href='identity-management-home'>
                     <MDBIcon fas icon="user-check" /> Background Verification
                   </MDBDropdownItem>
-                  <MDBDropdownItem link href='/strategic'>
+                  {/* <MDBDropdownItem link href='/strategic'>
                     <MDBIcon fas icon="hands-helping" href='/strategic' /> Strategic Recruitment
-                  </MDBDropdownItem>
+                  </MDBDropdownItem> */}
                   <MDBDropdownItem link href='/softwaresolution'>
                     <MDBIcon fab icon="python" href='/softwaresolution' /> Software Solutions
                   </MDBDropdownItem>
@@ -86,6 +87,11 @@ export default function Navbar() {
             <MDBNavbarItem>    
                 <MDBNavbarLink active aria-current='page' href='/career' className='navbar-item-block'>
                     Careers
+                </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>    
+            <MDBNavbarLink active aria-current='page' href='/sidebar/job' className='navbar-item-block'>
+                    Job DashBoard
                 </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>    

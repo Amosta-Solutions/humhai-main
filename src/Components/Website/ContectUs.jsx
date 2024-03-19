@@ -4,8 +4,8 @@ import Footer from './Footer';
 import { IoCallOutline } from 'react-icons/io5';
 import { IoMailOpenOutline } from 'react-icons/io5';
 import back from '../Assets/Images/back_contact_us.png';
-
-import Box from "@mui/material/Box";
+import { useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
@@ -13,6 +13,13 @@ import SendIcon from "@mui/icons-material/Send";
 import { Grid } from '@mui/material';
 
 const ContactUs = () => {
+  
+  const theme = useTheme();
+  const xs = useMediaQuery(theme.breakpoints.down("xs"));
+  const sm = useMediaQuery(theme.breakpoints.down("sm"));
+  const md = useMediaQuery(theme.breakpoints.down("md"));
+  const lg = useMediaQuery(theme.breakpoints.down("lg"));
+
   const [full_name, setFullName] = useState();
   const [mobile, setMobile] = useState();
   const [email, setEmail] = useState();
@@ -32,7 +39,6 @@ const ContactUs = () => {
 
         <div style={{ background: 'white', }}>
           <div
-            className='card'
             style={{
               display: 'flex',
               flexDirection: 'row',
@@ -92,7 +98,7 @@ const ContactUs = () => {
           </div>
           <div style={{ marginTop: '5%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
             <h2 style={{ textAlign: 'center' }}>CONTACT US</h2>
-            <div style={{ width: '50%', height: 'auto', padding: '20px', flexDirection: 'column' }}>
+            <div style={{ height: 'auto', padding: '20px', flexDirection: 'column', width: xs ? '50%' : sm ? '100%' : md ? '100%' : lg ? '50%' : '50%', }}>
 
               <form >
                 <Grid container spacing={2} style={{ padding: '20px' }}>

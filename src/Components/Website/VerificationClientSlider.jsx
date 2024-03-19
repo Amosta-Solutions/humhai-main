@@ -12,8 +12,6 @@ import SietzLogo from '../Assets/Images/clients/Verification/sietz.png'
 import STJLogo from '../Assets/Images/clients/Verification/stj.png'
 import BritishSchoolLogo from '../Assets/Images/clients/Verification/the-british-school.png'
 import VacoBinaryLogo from '../Assets/Images/clients/Verification/vaco-binary-semantics.png'
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 
 export default class VerificationClientSlider extends Component {
   render() {
