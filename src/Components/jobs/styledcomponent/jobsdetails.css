@@ -1,0 +1,23 @@
+.main-container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+.child-container{
+    width: 75%;
+    background-color: brown;
+}
+.child-container1{
+    width: 20%;
+    background-color: rgb(209, 158, 158);
+}
+.child-container-child{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(42, 205, 205);
+  margin-left: 10px;
+}
